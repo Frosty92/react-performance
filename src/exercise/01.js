@@ -8,6 +8,10 @@ import {readOnlySelector} from 'recoil'
 
 const Globe = React.lazy(() => import('../globe'))
 
+const onHover = () => {
+  React.lazy(() => import('../globe'))
+}
+
 const renderGlobe = () => (
   <React.Suspense fallback={<div>loadin...</div>}>
     <Globe />
@@ -30,6 +34,7 @@ function App() {
     >
       <label style={{marginBottom: '1rem'}}>
         <input
+          onMouseOver={() => import('../globe')}
           type="checkbox"
           checked={showGlobe}
           onChange={e => setShowGlobe(e.target.checked)}
