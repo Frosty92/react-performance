@@ -8,10 +8,6 @@ import {readOnlySelector} from 'recoil'
 
 const Globe = React.lazy(() => import('../globe'))
 
-const onHover = () => {
-  React.lazy(() => import('../globe'))
-}
-
 const renderGlobe = () => (
   <React.Suspense fallback={<div>loadin...</div>}>
     <Globe />
