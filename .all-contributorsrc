@@ -283,6 +283,34 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "0xnoob",
+      "name": "0xnoob",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49793844?v=4",
+      "profile": "https://github.com/0xnoob",
+      "contributions": [
+        "code",
+        "doc"
+      ]
+    },
+    {
+      "login": "esplito",
+      "name": "Emil Esplund",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10499067?v=4",
+      "profile": "https://emildev.netlify.app/",
+      "contributions": [
+        "test"
+      ]
+    },
+    {
+      "login": "jstheoriginal",
+      "name": "Justin Stanley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5117473?v=4",
+      "profile": "http://swiftwithjustin.co",
+      "contributions": [
+        "test"
+      ]
     }
   ],
   "repoHost": "https://github.com",
